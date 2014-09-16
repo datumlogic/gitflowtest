@@ -82,6 +82,15 @@ $ git push -u origin develop
 
 Now you could SSH into a Test (Sandbox) environment, and pull the code from 'develop' for testing.
 
+Now we will merge our changes into master. We begin by changing to the master branch and merging the changes in 
+
+```
+$ git checkout master
+$ git merge --no-ff develop
+$ git push -u origin master
+```
+
+
 
 
 
