@@ -8,18 +8,14 @@ After initially creating the repo,
 2. on the local machine, create a directory with the same name as the repo 'gitflowtest'
 3. Open terminal and change to the new directory and run:
 
+```
 touch README.md
-
 $ git init
-
 $ git add README.md
-
 $ git commit -m "first commit"
-
 $ git remote add origin git@github.com:datumlogic/gitflowtest.git
-
 $ git push -u origin master
-
+```
 
 
 The next step is to create the devlop branch. In terminal type:
