@@ -9,10 +9,15 @@ After initially creating the repo,
 3. Open terminal and change to the new directory and run:
 
 touch README.md
+
 $ git init
+
 $ git add README.md
+
 $ git commit -m "first commit"
+
 $ git remote add origin git@github.com:datumlogic/gitflowtest.git
+
 $ git push -u origin master
 
 
