@@ -4,9 +4,10 @@ This repo is used to document and test the Fezzee gitflow, and using pull reques
 Notes-
 After initially creating the repo, 
 
-1) In github manually create  the repo, with the name 'gitflowtest' 
-2) on the local machine, create a directory with the same name as the repo 'gitflowtest' 
-3) Open terminal and change to the new directory and run: 
+1. In github manually create  the repo, with the name 'gitflowtest'
+2. on the local machine, create a directory with the same name as the repo 'gitflowtest'
+3. Open terminal and change to the new directory and run:
+
 touch README.md
 $ git init
 $ git add README.md
