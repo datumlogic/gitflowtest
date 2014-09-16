@@ -94,6 +94,10 @@ Using the `--no-ff` flag causes the merge to always create a new commit object, 
 with a fast-forward. This avoids losing information about the historical existence of a feature branch and groups 
 together all commits that together added the feature. 
 
+if the do the above without the `--no-ff`, what would be the result?
+
+
+
 
 
 
