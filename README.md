@@ -20,11 +20,11 @@ $ git push -u origin master
 
 The next step is to create the devlop branch. In terminal type:
 
-$ git checkout -b develop
+`$ git checkout -b develop`
 
 Push the branch on github :
 
-$ git push origin develop
+`$ git push origin develop`
 
 
 # The Paradigm
@@ -58,21 +58,27 @@ Here we'll make our changes directly to the 'develop' branch
 
 First we enter:
 
+```
 $ git branch
 * develop
   master
+```
 
 to make sure we're working on 'develop'. If not we use this command to change to 'develop':
 
+```
 $ git checkout develop
 M	README.md
 Switched to branch 'develop'
+```
 
 Once we're made our changes locally, we'll want to commit them:
 
+```
 $ git add -A .
 $ git commit -m "updated README.md"
 $ git push -u origin develop
+```
 
 Now you could SSH into a Test (Sandbox) environment, and pull the code from 'develop' for testing.
 
